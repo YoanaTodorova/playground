@@ -1,0 +1,11 @@
+alias g='git'
+alias gco='git checkout'
+alias gcm='git commit -m'
+alias glog="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gbr='git branch'
+alias gst='git status'
+
+
+
+alias brightness_connect='xrandr -q | grep " connected"'
+alias brightness_set='xrandr --output LVDS1 --brightness'
